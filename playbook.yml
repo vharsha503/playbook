@@ -1,0 +1,5 @@
+---
+- name: installing package 
+  package: name=httpd state=present
+- service: initialing service
+  service: name=httpd state=present
